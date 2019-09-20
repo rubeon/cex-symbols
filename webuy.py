@@ -84,7 +84,7 @@ def get_store_name(store_data):
         if store['regionName'] not in regions.keys():
             regions[store['regionName']] = []
         regions[store['regionName']].append(store)
-        
+
     i = 1
     print("Choose a region:")
     region_list = list(regions.keys())
@@ -92,18 +92,18 @@ def get_store_name(store_data):
     for region in region_list:
         # print(region)
         # print(regions)
-        
+
         print("{:>2} {}".format(i, region))
         i = i + 1
     region = int(input("Number: ").strip()) - 1
-    
+
     i = 1
-    
+
     store_list = regions[region_list[region]]
     store_list.sort()
     for store in store_list:
         print(store['storeName'])
-            
+
 
 def main():
     """
