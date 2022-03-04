@@ -1,6 +1,7 @@
 """
 A library to scrape webuy.com (CeX)
 """
+import sys
 import json
 import requests
 from bs4 import BeautifulSoup as bs
@@ -27,13 +28,22 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleW
 class WebuyProduct:
     prodTitle=None
     prodPrice=None
+
     def __init__(self, **kwargs):
         self.prodTitle=kwargs.get('boxName')
         self.prodPrice=float(kwargs.get('sellPrice'))
 
-    def __str__(self):
-        return "{} <{:.2f}>".format(self.prodTitle, self.prodPrice)
+    def __lt__(self, other):
+        return self.prodTitle < other.prodTitle
 
+    def __gt__(self, other):
+        return self.prodTitle > other.prodTitle
+    
+    def __eq__(self, other):
+        return self.prodTitle == other.prodTitle
+
+    def __repr__(self):
+        return self.prodTitle
 
 class WebuyCategory:
     categoryId = None
@@ -59,19 +69,19 @@ class WebuyStore:
     def __str__(self):
         return "{} <{}>".format(self.storeName, self.storeId)
 
-    def category_list(self, cat):
+    def category_list(self, cat, sort=True):
         """
         return a list of all objects in a particular category
         """
         url = BASE_URL.format(self.storeId, cat.categoryId)
-        # print(url)
-        # return []
         page = requests.get(url, headers=HEADERS)
         response = json.loads(page.text)['response'].get('data')
         res = []
         if response:
             for item in response['boxes']:
                 res.append(WebuyProduct(**item))
+        if sort:
+            res.sort()
         return res
 
 def get_store_name(store_data):
@@ -90,9 +100,6 @@ def get_store_name(store_data):
     region_list = list(regions.keys())
     region_list.sort()
     for region in region_list:
-        # print(region)
-        # print(regions)
-
         print("{:>2} {}".format(i, region))
         i = i + 1
     region = int(input("Number: ").strip()) - 1
@@ -116,29 +123,23 @@ def main():
     # store_data = json.loads(page.text)['response'].get('data')['stores']
     # pprint(store_data)
     # get_store_name(store_data)
-    # sys.exit()
-    # sys.exit()
     cats = []
 
 
 
-    for catId in [1049, 1055, 1059, 51, 1103, 1052, 1037]:
+    for catId in [1049, 1055, 1059, 51, 1103, 1052, 1037, 972]:
         cat = next(item for item in cats_data if item["categoryId"] == catId)
         cats.append(WebuyCategory(categoryName=cat["categoryFriendlyName"],categoryId=catId))
 
     print(f"Got {len(cats)} categories")
-
-    # gba = WebuyCategory(categoryName="Game Boy Advance",categoryId=1049)
-    # megadrive = WebuyCategory(categoryName="Sega Mega Drive",categoryId=1055)
-    # sms = WebuyCategory(categoryName="Sega Master System",categoryId=1059)
     gld = WebuyStore(storeName='Guildford', storeId=208)
-    # print(gld)
-    # pprint(gld.category_list(sms))
+
     for cat in cats:
         print(cat)
         print(len(str(cat))*"=")
         for item in gld.category_list(cat):
             print(f"{item.prodTitle:<60}{item.prodPrice:>10.2f}")
         print("\n\n")
+
 if __name__ == '__main__':
     main()
