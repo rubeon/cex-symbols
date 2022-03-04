@@ -24,97 +24,98 @@ $ . bin/activate
 Got 7 categories
 Gameboy Advance Software <1049>
 ===============================
-Super Mario World: Super Mario Advance 2, Unboxed                15.00
-Pokemon Ruby, Unboxed                                            20.00
+Fire Emblem, Unboxed                                             55.00
 
 
 
 Mega Drive Software <1055>
 ==========================
-Sonic Spinball, Boxed                                             6.00
-Sonic 2, Boxed                                                    4.00
-Sonic 3, Boxed                                                   20.00
-Ristar, Boxed                                                    45.00
-Ren & Stimpy, Unboxed                                             8.00
-Primal Rage, Boxed                                               10.00
-Mighty Morphin Power Rangers, Unboxed                             6.00
-Lion King, Boxed                                                 10.00
-Lemmings, Unboxed                                                 6.00
-Dynamite Headdy, Boxed                                           15.00
-Comix Zone, Boxed                                                28.00
-Alien Storm, Boxed                                               12.00
+Micro Machines 2 Turbo Tournament, Boxed                         10.00
+Mortal Kombat 3, Boxed                                           22.00
 
 
 
 Master System Software <1059>
 =============================
-Wonder Boy, Unboxed                                              12.00
-Super Space Invaders, Boxed                                       6.00
-Sonic The Hedgehog 2, Boxed                                       3.50
-Secret Command, Unboxed                                           3.00
-R-Type, Unboxed                                                   6.00
-Paperboy, Unboxed                                                 4.00
-Fantasy Zone, Unboxed                                             8.00
 
 
 
 Dreamcast Games <51>
 ====================
-Rez, Boxed                                                       65.00
+Sonic Adventure, Boxed                                           15.00
+Virtua Tennis, Boxed                                              6.00
 
 
 
 Game Boy Software <1103>
 ========================
-World Cup USA 94, Unboxed                                         2.50
-Wario Land: Super Mario Land 3, Unboxed                           8.00
-Tetris, Unboxed                                                   5.00
-Tetris 2, Unboxed                                                 5.00
-Super Mario Land, Unboxed                                         8.00
-Super Mario Land 2: 6 Golden Coins, Unboxed                       6.00
-Pokemon: Yellow Version: Special Pikachu Edition, Unboxed        18.00
-Pokemon: Yellow Version: Special Pikachu Edition, Boxed          42.00
-Pokemon: Red Version, Unboxed                                    20.00
-Paperboy, Unboxed                                                 6.00
-Pac-Man, Unboxed                                                  8.00
-Mortal Kombat II, Unboxed                                         6.00
-International Superstar Soccer, Unboxed                           2.00
-Hook, Unboxed                                                     5.00
-Dr. Mario, Boxed                                                 25.00
+Pokemon: Red Version, Boxed                                     140.00
 
 
 
 NES Software <1052>
 ===================
+Super Mario Bros., Unboxed                                       12.00
 
 
 
 Super NES Software <1037>
 =========================
-Top Gear, Unboxed                                                 6.00
-Super Star Wars, Unboxed                                         10.00
-Super Metroid, Unboxed                                           32.00
-Super Mario World, Unboxed                                        8.00
-Super Mario Kart, Unboxed                                        15.00
-Super Mario Kart, Boxed                                          25.00
-Super Mario All Stars, Unboxed                                    8.00
-Super Mario All Stars & Super Mario World, Unboxed               12.00
-Street Fighter II, Unboxed                                        6.00
-Starwing, Unboxed                                                 4.00
-Nintendo Scope 6, Unboxed                                         1.00
-NBA Jam, Unboxed                                                  4.00
-Mortal Kombat 2, Unboxed                                         12.00
-Mickey Mania, Unboxed                                             8.00
-Lion King, Unboxed                                                8.00
-Lemmings, Unboxed                                                 6.00
-Legend of Zelda, The: A Link to the Past, Unboxed                28.00
-Killer Instinct, Unboxed                                          6.00
-Earthworm Jim, Unboxed                                           12.00
-Donkey Kong Country, Unboxed                                     10.00
-Donkey Kong Country 2, Unboxed                                   18.00
-Alien 3, Unboxed                                                  8.00
-Aladdin, Unboxed                                                 15.00
-Addams Family, Boxed                                             25.00
+Street Fighter II, Unboxed                                       12.00
+Stunt Race FX, Unboxed                                            5.00
+Super Mario All Stars, Unboxed                                   15.00
+Super Tennis, Unboxed                                             6.00
+Tetris & Dr Mario, Unboxed                                       15.00
+
+
+
+3DS Games <972>
+===============
+Animal Crossing: Happy Home Designer (No Card)                    8.00
+Battleship                                                        3.00
+Big Hero 6                                                        3.00
+Bravely Second: End Layer Deluxe Collector's Ed. +Statue/Book/CD     30.00
+Cars 2                                                            3.00
+FIFA 14                                                           3.00
+FIFA 15                                                           6.00
+Green Lantern Rise Of The Manhunters                              3.00
+Horrid Henry: Good, The Bad & The Bugly                           3.00
+Ice Age 4 - Continental Drift                                     3.00
+LEGO Batman 3: Beyond Gotham                                      5.00
+LEGO Jurassic World (No Figure)                                   5.00
+LEGO Marvel Super Heroes: Universe in Peril                       5.00
+LEGO Ninjago: Shadow Of Ronin                                     6.00
+Legend Of Zelda Ocarina Of Time 3D                               20.00
+Legend Of Zelda: Link Between Worlds                             18.00
+Lego City Undercover: The Chase Begins                            4.00
+Lego Movie Videogame, The                                         4.00
+Lego Pirates Of The Caribbean                                     6.00
+Mario & Sonic At The London 2012 Olympic                          8.00
+Mario Kart 7                                                     12.00
+Mario Party: Island Tour                                         10.00
+Mario Tennis Open                                                 6.00
+Monster Hunter 4 Ultimate                                        10.00
+New Super Mario Bros. 2                                          15.00
+Nintendogs & Cats Golden Retriever                               10.00
+Paper Mario Sticker Star                                         12.00
+Pokemon Alpha Sapphire                                           32.00
+Pokemon Moon                                                     12.00
+Pokemon Omega Ruby                                               32.00
+Pokemon Sun                                                      12.00
+Pokemon X                                                        30.00
+Pokemon Y                                                        28.00
+Pro Evolution Soccer 2011 3D                                      1.00
+Professor Layton & The Miracle Mask                               8.00
+Shin Megami Tensei: Devil Summoner: Soul Hackers                 45.00
+Sonic Generations                                                10.00
+Super Mario 3D Land                                               8.00
+Super Smash Bros.                                                12.00
+Tomodachi life                                                   20.00
+Yo-Kai Watch                                                      5.00
+Yo-Kai Watch 3                                                  100.00
+Yo-Kai Watch Blasters: Red Cat Corps                             30.00
+Yo-Kai Watch Blasters: White Dog Squad                           25.00
+Yoshi's New Island                                                8.00
 
 ```
 [cex]:https://uk.webuy.com
